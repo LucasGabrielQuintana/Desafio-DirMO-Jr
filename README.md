@@ -14,11 +14,11 @@ Debes crear un programa que calcule la secuencia de teclas que hay que pulsar pa
 escribir un cierto mensaje.”
 
 Ejemplos
-Input        Output
-hi            44 444
-yes           999337777
-foo  bar      333666 6660 022 2777
-hello world   4433555 555666096667775553
+-Input        Output
+-hi            44 444
+-yes           999337777
+-foo  bar      333666 6660 022 2777
+-hello world   4433555 555666096667775553
 
 ## Folder Structure
 
