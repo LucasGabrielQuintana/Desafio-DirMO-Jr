@@ -1,6 +1,6 @@
-## Getting Started
+## Desafio DirMOD-Jr
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositorio corresponde al ejercicio técnico enviado por DirMOD para formar parte de su equipo.
 
 ## Folder Structure
 
