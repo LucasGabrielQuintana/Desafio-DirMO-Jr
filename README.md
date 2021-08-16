@@ -17,7 +17,7 @@ Ejemplos
 - Input        Output
 - hi            44 444
 - yes           999337777
-- foo  bar      333666 6660 022 2777
+- foo  bar      333666 666022 2777
 - hello world   4433555 555666096667775553
 
 ## Folder Structure
