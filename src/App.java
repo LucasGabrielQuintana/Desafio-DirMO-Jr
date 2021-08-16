@@ -9,7 +9,11 @@ public class App {
         mensaje = String.valueOf(men.nextLine());
         System.out.println(transformMessage(mensaje));
     }
-    
+    /**
+     * Descripcion: esta funcion busca la coincidencia en letras para reemplazar por la secuencia de numeros segun su posición.
+     * @param message mensaje recibido para convertir a la secuencia de teclas que hay que pulsar.
+     * @return retorna el mensaje transformado en secuencia de teclas.
+     */
     public static String transformMessage(String message){
         char[] letras = {' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
         String[] numeros = {"0","2","22","222","3","33","333","4","44","444","5","55","555","6","66","666","7","77","777","7777","8","88","888","9","99","999","9999"};
@@ -35,7 +39,12 @@ public class App {
         }
         return transformedMessage;
     }
-
+    /**
+     * Descripcion: esta función compara entre dos String si son iguales las ultima letra de uno con la primera del otro.
+     * @param pri primer string recibido, de este se extrae su ultimo caracter.
+     * @param sec segundo string recibido, de este se extrae su primer caracter.
+     * @return retorna true si encontro coincidencia. 
+     */
     public static boolean compare(String pri, String sec){
         boolean value = false;
         char[] lastCharArray = pri.toCharArray();
